@@ -1,5 +1,3 @@
-import java.util.Stack;
-
 //0020 - Valid Paranthesis
 
 //Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
@@ -31,6 +29,8 @@ import java.util.Stack;
 
 //Time Complexity - O(n)
 //Space Complexity - O(n)
+
+import java.util.Stack;
 
 public class ValidParanthesis {
 

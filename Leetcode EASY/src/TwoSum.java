@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 //0001 - Two Sum
 //
 //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -38,6 +36,8 @@ import java.util.HashMap;
 
 //Time Complexity - O(n)
 //Space Complexity - O(n)
+
+import java.util.HashMap;
 
 public class TwoSum {
 
