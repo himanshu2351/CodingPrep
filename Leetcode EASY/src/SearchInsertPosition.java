@@ -58,4 +58,5 @@ public class SearchInsertPosition {
                 return binarySearch(nums,l,mid-1,t);
             }
         }
+    }
 }
