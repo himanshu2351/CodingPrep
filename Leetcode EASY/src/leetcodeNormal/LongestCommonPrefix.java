@@ -1,3 +1,4 @@
+package leetcodeNormal;
 //0014 - Longest Common Prefix
 
 /*

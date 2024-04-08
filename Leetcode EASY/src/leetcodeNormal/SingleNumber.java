@@ -1,3 +1,4 @@
+package leetcodeNormal;
 /*
 0136 - Single Number
 

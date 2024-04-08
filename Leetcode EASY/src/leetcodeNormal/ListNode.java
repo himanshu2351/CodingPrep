@@ -1,3 +1,4 @@
+package leetcodeNormal;
 
 public class ListNode {
 	int val;

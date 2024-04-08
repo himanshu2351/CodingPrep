@@ -1,3 +1,4 @@
+package leetcodeNormal;
 //0104 - Maximum Depth of a Binary Tree
 
 //Given the root of a binary tree, return its maximum depth.
