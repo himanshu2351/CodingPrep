@@ -4,6 +4,7 @@ public class TreeNode {
     int data;
     public TreeNode left;
     public TreeNode right;
+    public TreeNode next;
     public TreeNode() {
         this.data = 0;
         this.left = null;
