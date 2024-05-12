@@ -13,20 +13,21 @@ public class InorderTraversalUsingStack {
         // Write your code here.
         List<Integer> al = new ArrayList<>();
         if(root==null) return al;
+        
+        TreeNode curr = root;
         Stack<TreeNode> st = new Stack<>();
-        helper(root,st,al);
-        return al;
-    }
-
-    public static void helper(TreeNode root, Stack<TreeNode> st, List<Integer> al){
-
-        if(root == null){
-            return;
+        while(curr!=null || !st.isEmpty()){
+            if(curr!=null){
+                st.push(curr);
+                curr = curr.left;
+            }
+            else{
+                TreeNode temp = st.pop();
+                al.add(temp.data);
+                curr = temp.right;
+            }
         }
 
-        st.push(root);
-        helper(root.left,st,al);
-        al.add(st.pop().data);
-        helper(root.right,st,al);
+        return al;
     }
 }
